@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chitkara University</b></h1>
+    <p>Located 30 kms from <b>Chandigarh</b>, Chitkara University offers a world of learning that will help you reach your goals. Choose from our varied industry endorsed programs. Learn from an outstanding faculty at our state-of-the-art teaching facilities. Explore unlimited opportunities to get placed with one of the <i>1500+ campus recruiters and meet other students with dreams as big as yours</i>.</p>
+
+    <br>
+
+    <img src="Chitkara.jpg" title="Chitkara University" width="800" height="400" style="margin: auto;display: block;">
+
+    <h1>Courses:</h1>
+    <table border="1" cellspacing="0px" cellpading="6px">
+        <tr>
+            <th style="font-size: 32px;padding: 5px 30px 50px 5px;"><strong>Enginering</strong></th>
+            <th style="font-size: 32px;padding: 5px 30px 50px 5px;"><strong>Science</strong></th>
+            <th style="font-size: 32px;padding: 5px 30px 50px 5px;"><strong>Commerce</strong></th>
+            <th style="font-size: 32px;padding: 5px 30px 50px 5px;"><strong>Other</strong></th>
+        </tr>
+        <tr>
+            <td style="padding: 5px 30px 50px 5px;">B-tech in CSE</td>
+            <td style="padding: 5px 30px 50px 5px;">Bsc in Maths</td>
+            <td style="padding: 5px 30px 50px 5px;">BBA</td>
+            <td style="padding: 5px 30px 50px 5px;">Deploma in IT</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px 30px 50px 5px;">B-tech in ME</td>
+            <td style="padding: 5px 30px 50px 5px;">Bsc in chemistry</td>
+            <td style="padding: 5px 30px 50px 5px;">MBA in Marketing</td>
+            <td style="padding: 5px 30px 50px 5px;">Deploma in civil</td>
+        </tr>
+        <tr>
+            <td style="padding: 5px 30px 50px 5px;">B-tech in CHE</td>
+            <td style="padding: 5px 30px 50px 5px;">Bsc in Physics</td>
+            <td style="padding: 5px 30px 50px 5px;">MBA in Finance</td>
+            <td style="padding: 5px 30px 50px 5px;">NCC</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <h1>Other Service:</h1>
+    <ol type="1" start="1">
+        <li>Bus</li>
+        <li>Career counselling</li>
+        <li>Sports</li>
+        <li>Hostels</li>
+        <li>Restaurants</li>
+    </ol>
+
+    <br>
+
+    <h1>Enquery Form:</h1>
+        <form action="https://httpbin.org/get"></form>
+        <p>
+            <label for="name" style="color: blue;">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+        </p>
+        <p>
+            <label for="district" style="color: blue;">District:</label>
+            <input type="text" name="district" id="district" placeholder="Enter Your District" required>
+        </p>
+        <p>
+            <label for="state" style="color: blue;">State:</label>
+            <input type="text" id="state" name="state" placeholder="Enter Your State" required>
+        </p>
+        <p>
+            <label for="age" style="color: blue;">Age:</label>
+            <input type="number" name="age" id="age" placeholder="Enter Your age" required>
+        </p>
+        <p>
+            <label for="dob" style="color: blue;">DOB:</label>
+            <input type="number" name="dob" id="dob" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}" placeholder="Enter Your dob" required>
+        </p>
+        <p>
+            <label for="email" style="color: blue;">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+        </p>
+            <label for="gen" style="color: blue;">Gender:</label>
+        <p>
+            <input type="radio" name="gen" id="gen" required>Male
+        </p>
+        <p>
+            <input type="radio" name="gen" id="gen">Female
+        </p>
+        <p>
+            <label for="type"></label>
+            <textarea name="type" id="type" cols="90" rows="5" placeholder="Your Special Enquiry" required></textarea>
+        </p>
+        <p>
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="post" style="color: blue;">Submit</button>
+        </p>
+</body>
+</html>
